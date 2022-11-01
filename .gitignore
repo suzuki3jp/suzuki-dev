@@ -1,0 +1,5 @@
+# node_moduleを無視
+node_modules/
+
+# envファイルを無視
+*.env

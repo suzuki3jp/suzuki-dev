@@ -1,0 +1,22 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": "standard",
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "indent": "off",
+        "quotes": ["error", "backtick"],
+        "semi": ["error", "always"],
+        "semi-spacing": ["error", {"after": true, "before": false}],
+        "semi-style": ["error", "last"],
+        "no-useless-return": "off",
+        "no-unused-vars":"off"  
+    }
+}
