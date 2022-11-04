@@ -1,2 +1,2 @@
-# NodeAppTemplate
-simple template for node app
+# suzuki-dev
+web site "suzuki-dev.com" repo
