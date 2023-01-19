@@ -6,8 +6,6 @@ import { createServer as httpsCreateServer, Server as HTTPS } from 'https';
 // import modules
 import { DataManager } from '../class/DataManager';
 
-export function setupServer(isSecure: true): HTTPS;
-export function setupServer(isSecure: false): HTTP;
 export function setupServer(isSecure: boolean): Servers {
     const DM = new DataManager();
     const app = express();
