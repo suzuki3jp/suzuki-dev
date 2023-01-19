@@ -4,8 +4,9 @@
   "description": "",
   "main": "./src/index.js",
   "scripts": {
-    "init": "npm i",
-    "start": "node ./src/server/index.js"
+    "build": "npx tsc",
+    "start": "node ./dist/index.js",
+    "test": "npx ts-node ./src/index.ts"
   },
   "author": "",
   "license": "ISC",
