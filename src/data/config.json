@@ -1,4 +1,5 @@
 {
-    "isSecure": false,
-    "port": 443
+    "isSecure": true,
+    "port": 443,
+    "support_invite": "https://discord.gg/Dmd3PbTz4w"
 }

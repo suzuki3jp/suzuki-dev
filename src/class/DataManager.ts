@@ -52,4 +52,9 @@ export interface ConfigJson {
      * API port.
      */
     port: number;
+
+    /**
+     * Support discord server invite link.
+     */
+    support_invite: string;
 }
