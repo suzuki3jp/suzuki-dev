@@ -10,4 +10,8 @@ const Express_1 = require("./utils/Express");
     const logger = new utils_1.Logger({ isSaveLogToCsv: false });
     servers.server.listen(config.port, () => logger.system('API is ready at ', config.isSecure ? 'https' : 'http', '://localhost:', config.port.toString(), '.'));
     servers.app.use('/', Router_1.router);
+    servers.app.all('*', (req, res) => {
+        res.status(404);
+        res.send('存在しないパスです。もう一度URLを確認してください。');
+    });
 })();
