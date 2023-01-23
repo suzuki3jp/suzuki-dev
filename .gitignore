@@ -3,3 +3,6 @@ node_modules/
 
 # envファイルを無視
 *.env
+
+# tempディレクトリを無視
+temp/
