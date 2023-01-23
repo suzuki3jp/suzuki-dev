@@ -18,4 +18,8 @@ import { setupServer } from './utils/Express';
         )
     );
     servers.app.use('/', router);
+    servers.app.all('*', (req, res) => {
+        res.status(404);
+        res.send('存在しないパスです。もう一度URLを確認してください。');
+    });
 })();
