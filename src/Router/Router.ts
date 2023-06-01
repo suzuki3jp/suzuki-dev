@@ -8,6 +8,6 @@ import { support } from './routes/Support';
 export type Languages = 'en' | 'ja';
 export const router = Router()
     .get('/support', support)
-    .get('/api/rank/:name/:tag', rank)
-    .get('/api/uptime/:id', uptime)
-    .get('/api/wins/:name/:tag', wins);
+    .get('/rank/:name/:tag', rank)
+    .get('/uptime/:id', uptime)
+    .get('/wins/:name/:tag', wins);
