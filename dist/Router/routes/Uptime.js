@@ -19,6 +19,9 @@ class Uptime {
         // オフラインの場合
         if (uptime.data === `${id} is offline`)
             uptime.data = `${id}は現在オフラインです`;
+        // 日
+        uptime.data = uptime.data.replaceAll('days', '日');
+        uptime.data = uptime.data.replaceAll('day', '日');
         // 時間
         uptime.data = uptime.data.replaceAll('hours', '時間');
         uptime.data = uptime.data.replaceAll('hour', '時間');
