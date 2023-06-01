@@ -8,8 +8,8 @@ class DataManager {
     constructor() {
         this._paths = {
             config: (0, path_1.resolve)(__dirname, '../data/config.json'),
-            key: (0, path_1.resolve)('/etc/letsencrypt/live/suzuki-dev.com-0001/privkey.pem'),
-            cert: (0, path_1.resolve)('/etc/letsencrypt/live/suzuki-dev.com-0001/cert.pem'),
+            key: (0, path_1.resolve)('/etc/letsencrypt/live/api.suzuki3jp.xyz/privkey.pem'),
+            cert: (0, path_1.resolve)('/etc/letsencrypt/live/api.suzuki3jp.xyz/fullchain.pem'),
         };
     }
     /**
